@@ -1,0 +1,775 @@
+{
+  "id": "0931387f-6da7-477d-9a6b-d20e4e7c24d0",
+  "version": "2.0",
+  "name": "kareem169877",
+  "url": "https://www.gulftalent.com",
+  "tests": [{
+    "id": "3a69bfea-744f-4e7e-a073-1f6363ac46f5",
+    "name": "UC_1",
+    "commands": [{
+      "id": "dab3f8c6-ba9c-44f1-a3cc-9646d9d9b4f4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e76a8a20-717e-464f-9a37-5a93c40a3ab8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1062x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4acb924-43f5-4333-86a9-f65e0c9521c5",
+      "comment": "",
+      "command": "click",
+      "target": "name=pos_ref",
+      "targets": [
+        ["name=pos_ref", "name"],
+        ["css=.input-blk", "css:finder"],
+        ["xpath=//input[@name='pos_ref']", "xpath:attributes"],
+        ["xpath=//main[@id='main-block']/div/div/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a486cc16-3f1a-407f-8a56-4849126e2d2b",
+      "comment": "",
+      "command": "type",
+      "target": "name=pos_ref",
+      "targets": [
+        ["name=pos_ref", "name"],
+        ["css=.input-blk", "css:finder"],
+        ["xpath=//input[@name='pos_ref']", "xpath:attributes"],
+        ["xpath=//main[@id='main-block']/div/div/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "soft"
+    }, {
+      "id": "3c70483e-4c18-4f3e-ba68-a7639e4018c6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Software Engineer",
+      "targets": [
+        ["linkText=Software Engineer", "linkText"],
+        ["css=.active > .ng-scope", "css:finder"],
+        ["xpath=//main[@id='main-block']/div/div/div/div/div/div/form/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//form/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Software Engineer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3b5735f-93f5-42f6-8e03-b2f09bbea3aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-corner",
+      "targets": [
+        ["css=.btn-corner", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//main[@id='main-block']/div/div/div/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Find Jobs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fdb2021-31e1-4119-bb9f-9a19004c2094",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ng-scope:nth-child(1) > .col-sm-21 > .ellipsis-group .ng-binding",
+      "targets": [
+        ["css=.ng-scope:nth-child(1) > .col-sm-21 > .ellipsis-group .ng-binding", "css:finder"],
+        ["xpath=//div[@id='facetedSearchResults']/table/tbody/tr/td[2]/div/div/a/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Senior Software Engineer (Egyptian National)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c180bed-1524-412d-b86e-2c5d9280eac7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(1) > .col-sm-21 .ga-job-impression > .ng-binding",
+      "targets": [
+        ["css=.ng-scope:nth-child(1) > .col-sm-21 .ga-job-impression > .ng-binding", "css:finder"],
+        ["xpath=//div[@id='facetedSearchResults']/table/tbody/tr/td[2]/div/div/a/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Senior Software Engineer (Egyptian National)')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4886",
+      "windowTimeout": 2000
+    }, {
+      "id": "6d41de6a-a8e2-42c3-b0b2-da93197e5cc6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ng-scope:nth-child(1) > .col-sm-21 .ga-job-impression > .ng-binding",
+      "targets": [
+        ["css=.ng-scope:nth-child(1) > .col-sm-21 .ga-job-impression > .ng-binding", "css:finder"],
+        ["xpath=//div[@id='facetedSearchResults']/table/tbody/tr/td[2]/div/div/a/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Senior Software Engineer (Egyptian National)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "edfa23c0-7097-4c42-a9cf-c21d7698603a",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58c60cda-5aad-42d1-b5aa-c8d3075175fc",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4886}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "455b68a5-a0fb-473d-bbaa-94ecbc0266a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-star",
+      "targets": [
+        ["css=.fa-star", "css:finder"],
+        ["xpath=//main[@id='main-block']/div[2]/div[4]/div[2]/div/div/div/div[2]/div/span/a/i", "xpath:idRelative"],
+        ["xpath=//span/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6c3bd29-bc45-4a9a-b194-a8be4ce9e2de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-18 > .panel-title:nth-child(1)",
+      "targets": [
+        ["css=.col-sm-18 > .panel-title:nth-child(1)", "css:finder"],
+        ["xpath=//main[@id='main-block']/div[2]/div[4]/div[2]/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Senior Software Engineer (Egyptian National)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfe922d3-fbb9-4a42-94e4-4e458f0c4b0b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.dropdown-toggle > .text-primary",
+      "targets": [
+        ["css=.dropdown-toggle > .text-primary", "css:finder"],
+        ["xpath=//html[@id='ng-app']/body/header/div/div/div/ul/li[6]/a/i", "xpath:idRelative"],
+        ["xpath=//li[6]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a4f64e9-a432-47d6-a4b6-6cb5cfbcb85a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Saved Jobs",
+      "targets": [
+        ["linkText=Saved Jobs", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Saved Jobs')]", "xpath:link"],
+        ["xpath=//html[@id='ng-app']/body/header/div/div/div/ul/li[6]/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/candidates/saved-jobs')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Saved Jobs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1645dfb9-8826-4108-b929-7ab3b45e795c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad201f4c-ce4c-4b0f-bd65-2a3c471164d0",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4886}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17b2fe2e-c465-49fc-aa44-cb6e59a41dd0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope > .ng-binding",
+      "targets": [
+        ["css=.ng-scope > .ng-binding", "css:finder"],
+        ["xpath=//main[@id='main-block']/div[2]/div[4]/div[2]/div/div/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td", "xpath:position"],
+        ["xpath=//td[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbcc7ee6-47d2-4d98-9f1b-d606623ab688",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope > .ng-binding",
+      "targets": [
+        ["css=.ng-scope > .ng-binding", "css:finder"],
+        ["xpath=//main[@id='main-block']/div[2]/div[4]/div[2]/div/div/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td", "xpath:position"],
+        ["xpath=//td[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcc794a0-ff38-49d5-8daf-f6646d97335d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope > .ng-binding",
+      "targets": [
+        ["css=.ng-scope > .ng-binding", "css:finder"],
+        ["xpath=//main[@id='main-block']/div[2]/div[4]/div[2]/div/div/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td", "xpath:position"],
+        ["xpath=//td[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "402c9933-d144-4ded-bdd0-d8a3404a5666",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.ng-scope > .ng-binding",
+      "targets": [
+        ["css=.ng-scope > .ng-binding", "css:finder"],
+        ["xpath=//main[@id='main-block']/div[2]/div[4]/div[2]/div/div/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td", "xpath:position"],
+        ["xpath=//td[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "879c107d-88d0-4bb8-a4fc-0767d791355a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope > .ng-binding",
+      "targets": [
+        ["css=.ng-scope > .ng-binding", "css:finder"],
+        ["xpath=//main[@id='main-block']/div[2]/div[4]/div[2]/div/div/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td", "xpath:position"],
+        ["xpath=//td[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9c83549-559d-4c7e-8a39-7b50bb91d745",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope > .ng-binding",
+      "targets": [
+        ["css=.ng-scope > .ng-binding", "css:finder"],
+        ["xpath=//main[@id='main-block']/div[2]/div[4]/div[2]/div/div/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td", "xpath:position"],
+        ["xpath=//td[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "086ca72e-8bda-4e66-a0ff-655abafd7e56",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope > .ng-binding",
+      "targets": [
+        ["css=.ng-scope > .ng-binding", "css:finder"],
+        ["xpath=//main[@id='main-block']/div[2]/div[4]/div[2]/div/div/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td", "xpath:position"],
+        ["xpath=//td[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9acdef51-2f59-4e4e-b275-3327b92f5c1d",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.ng-scope > .ng-binding",
+      "targets": [
+        ["css=.ng-scope > .ng-binding", "css:finder"],
+        ["xpath=//main[@id='main-block']/div[2]/div[4]/div[2]/div/div/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td", "xpath:position"],
+        ["xpath=//td[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cd6c39c-99d5-47d8-b000-38780e014637",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope > .ng-binding",
+      "targets": [
+        ["css=.ng-scope > .ng-binding", "css:finder"],
+        ["xpath=//main[@id='main-block']/div[2]/div[4]/div[2]/div/div/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td", "xpath:position"],
+        ["xpath=//td[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2189d2e6-4c1f-4451-907e-03c0f340dcec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope > .ng-binding",
+      "targets": [
+        ["css=.ng-scope > .ng-binding", "css:finder"],
+        ["xpath=//main[@id='main-block']/div[2]/div[4]/div[2]/div/div/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td", "xpath:position"],
+        ["xpath=//td[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74ac74c0-8357-4169-a891-5d961b8e2400",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope > .ng-binding",
+      "targets": [
+        ["css=.ng-scope > .ng-binding", "css:finder"],
+        ["xpath=//main[@id='main-block']/div[2]/div[4]/div[2]/div/div/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td", "xpath:position"],
+        ["xpath=//td[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9570cff-1e70-4590-97ef-9e20c67832f6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//main[@id='main-block']/div[2]/div[4]/div[2]/div/div/table/tbody/tr/td",
+      "targets": [
+        ["css=.ng-scope > .ng-binding", "css:finder"],
+        ["xpath=//main[@id='main-block']/div[2]/div[4]/div[2]/div/div/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td", "xpath:position"],
+        ["xpath=//td[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "48ca007a-0186-4264-adde-409586d1fe95",
+    "name": "UC_2",
+    "commands": [{
+      "id": "25003d68-0a88-40f6-b036-e79b4c38bc22",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c5d86a3-ea93-4389-b89b-7b6b6d0f936e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7995f48-7b18-4fdb-95a6-af7a8c2c421e",
+      "comment": "",
+      "command": "click",
+      "target": "name=pos_ref",
+      "targets": [
+        ["name=pos_ref", "name"],
+        ["css=.input-blk", "css:finder"],
+        ["xpath=//input[@name='pos_ref']", "xpath:attributes"],
+        ["xpath=//main[@id='main-block']/div/div/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e71ecd81-f212-4e4c-a31b-7e37f5a0e6f2",
+      "comment": "",
+      "command": "type",
+      "target": "name=pos_ref",
+      "targets": [
+        ["name=pos_ref", "name"],
+        ["css=.input-blk", "css:finder"],
+        ["xpath=//input[@name='pos_ref']", "xpath:attributes"],
+        ["xpath=//main[@id='main-block']/div/div/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "sof"
+    }, {
+      "id": "465f9294-2c4b-4f29-b5f6-e8070de1bdf4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=pos_ref",
+      "targets": [
+        ["name=pos_ref", "name"],
+        ["css=.input-blk", "css:finder"],
+        ["xpath=//input[@name='pos_ref']", "xpath:attributes"],
+        ["xpath=//main[@id='main-block']/div/div/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "e663afbe-be8c-4f32-9f1f-d69d069f6d5b",
+      "comment": "",
+      "command": "type",
+      "target": "name=pos_ref",
+      "targets": [
+        ["name=pos_ref", "name"],
+        ["css=.input-blk", "css:finder"],
+        ["xpath=//input[@name='pos_ref']", "xpath:attributes"],
+        ["xpath=//main[@id='main-block']/div/div/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "software eng"
+    }, {
+      "id": "634312ee-fa25-46e0-a327-f6a036a5e763",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Software Engineer",
+      "targets": [
+        ["linkText=Software Engineer", "linkText"],
+        ["css=.ng-scope > .ng-scope", "css:finder"],
+        ["xpath=//main[@id='main-block']/div/div/div/div/div/div/form/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//form/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Software Engineer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91acc072-dfd7-4659-b468-81dc16b3df20",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-corner",
+      "targets": [
+        ["css=.btn-corner", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//main[@id='main-block']/div/div/div/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Find Jobs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bc8aeef-f67b-41fa-b276-359e642fbb4e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ng-scope:nth-child(1) > .col-sm-21 > .ellipsis-group .ng-binding",
+      "targets": [
+        ["css=.ng-scope:nth-child(1) > .col-sm-21 > .ellipsis-group .ng-binding", "css:finder"],
+        ["xpath=//div[@id='facetedSearchResults']/table/tbody/tr/td[2]/div/div/a/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Senior Software Engineer (Egyptian National)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2eb70ef4-944e-4606-a895-3aef06f0fe84",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(1) > .col-sm-21 .ga-job-impression > .ng-binding",
+      "targets": [
+        ["css=.ng-scope:nth-child(1) > .col-sm-21 .ga-job-impression > .ng-binding", "css:finder"],
+        ["xpath=//div[@id='facetedSearchResults']/table/tbody/tr/td[2]/div/div/a/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Senior Software Engineer (Egyptian National)')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3002",
+      "windowTimeout": 2000
+    }, {
+      "id": "13cdd567-d195-4650-b405-bcbe95af4099",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ng-scope:nth-child(1) > .col-sm-21 .ga-job-impression > .ng-binding",
+      "targets": [
+        ["css=.ng-scope:nth-child(1) > .col-sm-21 .ga-job-impression > .ng-binding", "css:finder"],
+        ["xpath=//div[@id='facetedSearchResults']/table/tbody/tr/td[2]/div/div/a/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Senior Software Engineer (Egyptian National)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ef80412-e1d9-4e83-8127-f040cd6e153f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3002}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "503c35cd-0d71-4126-8649-ef3159fb66ef",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//span/span[2]",
+      "targets": [
+        ["css=.pull-right > .text-supermuted:nth-child(2)", "css:finder"],
+        ["xpath=//main[@id='main-block']/div[2]/div[4]/div[2]/div/div/div/div[2]/div/span/span[2]", "xpath:idRelative"],
+        ["xpath=//span/span[2]", "xpath:position"]
+      ],
+      "value": "Job saved (Click to unsave)"
+    }]
+  }, {
+    "id": "e68704d3-b74b-4f94-9998-814bf9009f34",
+    "name": "UC_4",
+    "commands": [{
+      "id": "1697e200-d23e-433d-9b09-06525e77187f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b3e48e6-aa37-4772-b75a-4a3eb7f14735",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3e00c6c-f85a-4eff-8d2d-e86e6b33af48",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.dropdown-toggle > .text-primary",
+      "targets": [
+        ["css=.dropdown-toggle > .text-primary", "css:finder"],
+        ["xpath=//html[@id='ng-app']/body/header/div/div/div/ul/li[6]/a/i", "xpath:idRelative"],
+        ["xpath=//li[6]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc6d212e-6cf8-40f8-a13a-f6b9868b58fa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Update GulfTalent CV",
+      "targets": [
+        ["linkText=Update GulfTalent CV", "linkText"],
+        ["css=.dropdown > .dropdown-menu > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Update GulfTalent CV')]", "xpath:link"],
+        ["xpath=//html[@id='ng-app']/body/header/div/div/div/ul/li[6]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/candidates/edit-cv')]", "xpath:href"],
+        ["xpath=//li[6]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update GulfTalent CV')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c9766be-7f32-4e5f-8e0b-babeb1db9708",
+      "comment": "",
+      "command": "click",
+      "target": "name=file",
+      "targets": [
+        ["name=file", "name"],
+        ["css=.ng-valid-gt-type-file-size", "css:finder"],
+        ["xpath=//input[@name='file']", "xpath:attributes"],
+        ["xpath=//main[@id='main-block']/div[2]/div[5]/div[2]/div/div/div[9]/div[2]/form/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe57a706-697b-4806-ae66-e5bbfc334b86",
+      "comment": "",
+      "command": "type",
+      "target": "name=file",
+      "targets": [
+        ["name=file", "name"],
+        ["css=.input-blk:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='file']", "xpath:attributes"],
+        ["xpath=//main[@id='main-block']/div[2]/div[5]/div[2]/div/div/div[9]/div[2]/form/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\gulftalent.docx"
+    }, {
+      "id": "98b1f23e-dfa9-408c-830d-acce66bbe262",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-section > span:nth-child(1)",
+      "targets": [
+        ["css=.btn-section > span:nth-child(1)", "css:finder"],
+        ["xpath=//main[@id='main-block']/div[2]/div[5]/div[2]/div/div/div[9]/div[2]/form/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Attach New CV')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01993e31-bf3f-4a12-bbc2-7f1abc21d001",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.row:nth-child(1) .media-body",
+      "targets": [
+        ["css=.row:nth-child(1) .media-body", "css:finder"],
+        ["xpath=//main[@id='main-block']/div[2]/div[5]/div[2]/div/div/div[9]/div[2]/div/div/div[2]/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cec44365-50cc-42d4-ac67-6c8c30938d3f",
+    "name": "UC_5",
+    "commands": [{
+      "id": "04d4ae68-be42-4703-93bd-bbc8b378e45d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f557521-5cb4-4729-9d94-614f06db50a1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1053x807",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98d85787-1e67-4f92-8194-45be205e9932",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.dropdown-toggle > .text-primary",
+      "targets": [
+        ["css=.dropdown-toggle > .text-primary", "css:finder"],
+        ["xpath=//html[@id='ng-app']/body/header/div/div/div/ul/li[6]/a/i", "xpath:idRelative"],
+        ["xpath=//li[6]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3d60784-7d36-43cb-bef7-19d8f865f3b0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Update GulfTalent CV",
+      "targets": [
+        ["linkText=Update GulfTalent CV", "linkText"],
+        ["css=.dropdown > .dropdown-menu > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Update GulfTalent CV')]", "xpath:link"],
+        ["xpath=//html[@id='ng-app']/body/header/div/div/div/ul/li[6]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/candidates/edit-cv')]", "xpath:href"],
+        ["xpath=//li[6]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update GulfTalent CV')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9762aeeb-9d96-4fc2-a28d-ccb2a95a6c64",
+      "comment": "",
+      "command": "click",
+      "target": "name=file",
+      "targets": [
+        ["name=file", "name"],
+        ["css=.ng-valid-gt-type-file-size", "css:finder"],
+        ["xpath=//input[@name='file']", "xpath:attributes"],
+        ["xpath=//main[@id='main-block']/div[2]/div[5]/div[2]/div/div/div[9]/div[2]/form/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c253ec7-b00d-4fe2-a5fd-2585de351e66",
+      "comment": "",
+      "command": "type",
+      "target": "name=file",
+      "targets": [
+        ["name=file", "name"],
+        ["css=.input-blk:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='file']", "xpath:attributes"],
+        ["xpath=//main[@id='main-block']/div[2]/div[5]/div[2]/div/div/div[9]/div[2]/form/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\S.png"
+    }, {
+      "id": "8ad253a3-e563-4473-9eea-e80596bbf262",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-8 > .btn",
+      "targets": [
+        ["css=.col-sm-8 > .btn", "css:finder"],
+        ["xpath=//main[@id='main-block']/div[2]/div[5]/div[2]/div/div/div[9]/div[2]/form/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Attach New CV')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86828c6a-0805-4024-b57f-03f7ec7c4c5b",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.modal-body > .ng-binding:nth-child(1)",
+      "targets": [],
+      "value": "30000"
+    }]
+  }, {
+    "id": "43909553-0557-49ce-a392-bfca36455fa1",
+    "name": "UC_3",
+    "commands": [{
+      "id": "865a5efc-6092-41bb-bb27-09aaf6d5a937",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "029ca0a3-e6d5-4e60-9844-adfb1b33cd7a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1062x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4dbd7c5f-73f9-4c79-a9b7-60ab381a01d5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1070x820",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62fc959c-1e23-4bc3-a00a-069cf7cca3ed",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.dropdown-toggle > .text-primary",
+      "targets": [
+        ["css=.dropdown-toggle > .text-primary", "css:finder"],
+        ["xpath=//html[@id='ng-app']/body/header/div/div/div/ul/li[6]/a/i", "xpath:idRelative"],
+        ["xpath=//li[6]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea058bfe-c8e5-46c1-a72f-2c012387b20a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Saved Jobs",
+      "targets": [
+        ["linkText=Saved Jobs", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Saved Jobs')]", "xpath:link"],
+        ["xpath=//html[@id='ng-app']/body/header/div/div/div/ul/li[6]/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/candidates/saved-jobs')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Saved Jobs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94331d63-095b-4371-837c-91ec29750cdd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(1) > td .fa",
+      "targets": [
+        ["css=.ng-scope:nth-child(1) > td .fa", "css:finder"],
+        ["xpath=//main[@id='main-block']/div[2]/div[4]/div[2]/div/div/table/tbody/tr/td[4]/a/i", "xpath:idRelative"],
+        ["xpath=//td[4]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49f7e93d-ef04-4583-b0fe-07c2e510fea6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-12 > .btn-secondary",
+      "targets": [
+        ["css=.col-sm-12 > .btn-secondary", "css:finder"],
+        ["xpath=//html[@id='ng-app']/body/div[5]/div/div/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ok')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0aa289ab-2b44-4241-b0df-a2c2c376d54a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-14",
+      "targets": [
+        ["css=.col-sm-14", "css:finder"],
+        ["xpath=//main[@id='main-block']/div[2]/div[4]/div[2]/div/div/table/thead/tr/th[2]", "xpath:idRelative"],
+        ["xpath=//th[2]", "xpath:position"],
+        ["xpath=//th[contains(.,'Position')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "056688ad-e1e2-440b-b51d-76077dd374a3",
+      "comment": "",
+      "command": "waitForElementNotPresent",
+      "target": "xpath=//main[@id='main-block']/div[2]/div[4]/div[2]/div/div/table/tbody/tr/td[2]",
+      "targets": [],
+      "value": "30000"
+    }]
+  }],
+  "suites": [{
+    "id": "a58d25f9-3ab8-4c4b-8eb2-cecd39dd7dad",
+    "name": "add job to save list then remove it from saved list",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3a69bfea-744f-4e7e-a073-1f6363ac46f5", "48ca007a-0186-4264-adde-409586d1fe95", "43909553-0557-49ce-a392-bfca36455fa1"]
+  }],
+  "urls": ["https://www.gulftalent.com/"],
+  "plugins": []
+}
